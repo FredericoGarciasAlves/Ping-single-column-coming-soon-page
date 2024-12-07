@@ -1,0 +1,68 @@
+@media (max-width: 375px) {
+    body {
+        width: auto;
+        height: auto;
+    }
+    .main {
+        height: 81.2rem;
+        width: 37.5rem;
+    }
+
+    .main .icon-header {
+        width: 5.6rem;
+        height: 2rem;
+    }
+
+    .main .title-main {
+        font-size: 2.3rem;
+        margin-top: 3.2rem;
+    }
+
+    .main .text-main {
+        font-size: 1.3rem;
+        margin-top: 1.5rem;
+    }
+
+    .main .form-main {
+        flex-direction: column;
+    }
+
+    .main .form-main .email {
+        width: 28rem;
+        height: 4rem;
+        border-radius: 4rem;
+        font-size: 1.4rem;
+    }
+
+    .main .form-main .email::placeholder {
+        font-size: 1.4rem;
+    }
+
+    .main .form-main .erro-message {
+        width: 28rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .main .form-main .btn-submit {
+        width: 28rem;
+        height: 4rem;
+        border-radius: 4rem;
+        font-size: 1.4rem;
+        margin-top: 1rem;
+    }
+
+    .main .img-dashbord {
+        width: 32rem;
+        height: 19.2rem;
+    }
+
+    .main .box-icons {
+        margin-top: 12rem;
+    }
+
+    .main .copyright {
+        margin-bottom: 3.7rem;
+    }
+}
